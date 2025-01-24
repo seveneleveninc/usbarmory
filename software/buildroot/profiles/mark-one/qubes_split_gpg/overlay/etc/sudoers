@@ -1,3 +1,0 @@
-root ALL=(ALL) ALL
-
-gpg ALL=(root) NOPASSWD: ALL

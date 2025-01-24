@@ -1,7 +1,0 @@
-#!/bin/sh
-
-if [ "$1" != "stop" ]; then
-  exit 0;
-fi
-
-echo 0 > /sys/bus/platform/drivers/leds-gpio/leds/leds/LED_WHITE/brightness
